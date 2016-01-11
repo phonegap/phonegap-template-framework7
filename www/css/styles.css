@@ -1,0 +1,75 @@
+
+i.icon.icon-plus {
+    width: 29px;
+    height: 29px;
+    background-image: url("../img/plus.svg");
+}
+.scroll {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
+    height: 140px;
+    position: relative;
+}
+/*.bottom {*/
+    /*position:fixed;*/
+    /*left:0px;*/
+    /*bottom:0px;*/
+    /*/!*height:30px;*!/*/
+    /*width:100%;*/
+
+/*}*/
+.list-block {
+    margin: 10px 0 !important;
+}
+.content-block-title {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #6d6d72;
+    margin: 18px 15px 10px;
+}
+.list-block .item-title {
+    -webkit-flex-shrink: 1;
+    -ms-flex: 0 1 auto;
+    flex-shrink: 1;
+    white-space: inherit;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+.list-block .item-title.label {
+    width: 50%;
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    flex-shrink: 0;
+}
+
+#mediaList  {
+     margin: 10px 0 !important;
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+
+/*
+   stausbar-overlay sets the background color for the overlay. Since we are using the dark theme and want light text on it, but black text
+   is the default, we'll have to add the cordova-plugin-statusbar. Once added it will use a default lightcontent setting
+   which will make the text white so you can see on dark backgrounds. It does this by automatically adding this pref to
+   the config.xml upon build for ios -> <preference name="StatusBarStyle" value="lightcontent"/>
+
+   https://github.com/apache/cordova-plugin-statusbar
+*/
+
+.statusbar-overlay {
+    background: #000000;
+}

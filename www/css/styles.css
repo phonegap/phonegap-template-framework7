@@ -1,5 +1,5 @@
 /*
-   stausbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   stautsbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
    statusbar plugin is added, it also adds default setting to make the content white via:
 
        <preference name="StatusBarStyle" value="lightcontent"/>

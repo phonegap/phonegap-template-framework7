@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.devgirl.framework7.mediaexplorer" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>org.devgirl.mediaexplorer.framework7</name>
+    <name>com.phonegap.framework7.base</name>
     <description>
         A basic Framework7 template for PhoneGap.
     </description>
@@ -8,6 +8,7 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+    <icon src="logo.png" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

@@ -1,10 +1,13 @@
 /*
-   stausbar-overlay sets the background color for the overlay. Since we are using the dark theme and want light text on it, but black text
-   is the default, we'll have to add the cordova-plugin-statusbar. Once added it will use a default lightcontent setting
-   which will make the text white so you can see on dark backgrounds. It does this by automatically adding this pref to
-   the config.xml upon build for ios -> <preference name="StatusBarStyle" value="lightcontent"/>
+   stausbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
 
-   https://github.com/apache/cordova-plugin-statusbar
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
 */
 
 .statusbar-overlay {

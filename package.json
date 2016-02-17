@@ -1,17 +1,19 @@
 {
   "name": "phonegap-template-framework7",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A starter template for building PhoneGap apps with Framework7.",
-  "main": "my-app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/phonegap/phonegap-template-framework7.git"
   },
-  "author": "The Adobe PhoneGap Team",
-  "license": "Apache2",
+  "author": "PhoneGap Team",
+  "license": "Apache-2.0.0",
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template"
+  ],
   "bugs": {
     "url": "https://github.com/phonegap/phonegap-template-framework7/issues"
   },

@@ -2,6 +2,7 @@
   "name": "phonegap-template-framework7",
   "version": "1.0.3",
   "description": "A starter template for building PhoneGap apps with Framework7.",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/phonegap/phonegap-template-framework7.git"

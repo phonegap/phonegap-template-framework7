@@ -10,7 +10,7 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">
 
     <!-- Required meta tags-->
     <meta charset="utf-8">
@@ -23,7 +23,7 @@
     <!-- Path to Framework7 Library CSS -->
     <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
     <!-- Path to your custom app styles-->
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/style.css">
 </head>
 
 <body>
@@ -36,28 +36,28 @@
             <!-- Initial Page, "data-name" contains page name -->
             <div data-name="home" class="page">
     
-            <!-- Top Navbar -->
-            <div class="navbar">
-                <div class="navbar-inner">
-                <div class="title">Awesome App</div>
+                <!-- Top Navbar -->
+                <div class="navbar">
+                    <div class="navbar-inner">
+                    <div class="title">Awesome App</div>
+                    </div>
                 </div>
-            </div>
-    
-            <!-- Toolbar -->
-            <div class="toolbar">
-                <div class="toolbar-inner">
-                <!-- Toolbar links -->
-                <a href="#" class="link">Link 1</a>
-                <a href="#" class="link">Link 2</a>
+        
+                <!-- Toolbar -->
+                <div class="toolbar">
+                    <div class="toolbar-inner">
+                    <!-- Toolbar links -->
+                    <a href="#" class="link">Link 1</a>
+                    <a href="#" class="link">Link 2</a>
+                    </div>
                 </div>
-            </div>
-    
-            <!-- Scrollable page content -->
-            <div class="page-content">
-                <p>Page content goes here</p>
-                <!-- Link to another page -->
-                <a href="/about/">About app</a>
-            </div>
+        
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                    <p>Page content goes here</p>
+                    <!-- Link to another page -->
+                    <a href="/about/" data-view=".page-content">About app</a>
+                </div>
             </div>
         </div>
     </div>
